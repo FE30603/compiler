@@ -1,6 +1,6 @@
-#Compiler
+Compiler
 
-##語法
+語法
 
 ```
 E = F (op E)*
@@ -13,7 +13,7 @@ WHILE = while (E) STMT
 ASSIGN = id '=' E;
 ```
 
-##結果
+結果
 
 ```
 $make
