@@ -19,7 +19,7 @@ ASSIGN = id '=' E;
 $make
 gcc -std=c99 -O0 lexer.c compiler.c main.c -o compiler
 
-$/compiler ./test/while.txt
+$./compiler ./test/while.txt
 while (a<10) {
     a = a + 3;
 }
